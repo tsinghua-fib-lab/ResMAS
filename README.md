@@ -1,6 +1,6 @@
 # LLM_MAS_resilience
 
-The official PyTorch implementation of "ResMAS: Resilience Optimization in LLM-based Multi-agent Systems".
+The official PyTorch implementation of "[ResMAS: Resilience Optimization in LLM-based Multi-agent Systems](https://ojs.aaai.org/index.php/AAAI/article/view/40824/)" (AAAI'26).
 
 ## Usage
 
@@ -53,5 +53,22 @@ cd evaluation
 bash run.sh
 ```
 
+## Note
 
+If you found this library useful in your research, please consider citing:
+
+```
+@article{zhou2026resmas, 
+    title={ResMAS: Resilience Optimization in LLM-based Multi-agent Systems}, 
+    volume={40}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/40824}, 
+    DOI={10.1609/aaai.v40i41.40824}, 
+    number={41}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    author={Zhou, Zhilun and Liu, Zihan and Liu, Jiahe and Shao, Qingyu and Wang, Yihan and Shao, Kun and Jin, Depeng and Xu, Fengli}, 
+    year={2026}, 
+    month={Mar.}, 
+    pages={35176-35184} 
+}
+```
 
