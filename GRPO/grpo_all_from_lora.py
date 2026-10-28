@@ -140,7 +140,7 @@ def single_reward(prompt, completion, task):
     ###############################################
     resilience, acc = pred_resilience(reward_model, adj_matrix, test_questions, dataset=task)
     # reward = (resilience + acc) / 2 #######################
-    reward = edge_num / M
+    reward = edge_num / M + resilience
     # reward = edge_num / M
     # reward = 1
     return reward
